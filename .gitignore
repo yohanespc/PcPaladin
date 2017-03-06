@@ -1,0 +1,10 @@
+bin/
+Debug/
+.vs/
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
