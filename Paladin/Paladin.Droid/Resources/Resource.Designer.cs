@@ -26,6 +26,8 @@ namespace Paladin.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Paladin.Droid.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Paladin.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Paladin.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3588,6 +3590,12 @@ namespace Paladin.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f07003e
+			public const int ApplicationName = 2131165246;
+			
+			// aapt resource value: 0x7f07003d
+			public const int Hello = 2131165245;
 			
 			// aapt resource value: 0x7f07001c
 			public const int abc_action_bar_home_description = 2131165212;

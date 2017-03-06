@@ -4,12 +4,14 @@
              xmlns:local="clr-namespace:Paladin"
              x:Class="Paladin.Views.MainPage"
              Title="Paladin">
+  <Button x:Name="btnAddCharacter" Text="Add" Clicked="btnAddCharacter_Clicked" />
+  <Button x:Name="btnDeleteCharacter" Text="Delete" Clicked="btnDeleteCharacterClicked" />
 
   <ListView x:Name="lvCharacters" ItemTapped="LvCharacters_ItemTapped">
     <ListView.ItemTemplate>
       <DataTemplate>
         <!--<TextCell Text="{Binding Name}" />-->
-        <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}"/>
+        <ImageCell Text="{Binding Name}" ImageSource="{Binding IconPath}"/>
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>

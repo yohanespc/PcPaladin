@@ -12,6 +12,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Database\Character.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\CharacterDl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\PaladinDb.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ISQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\CharactersListDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\CharacterDetails.xaml.cs">
       <DependentUpon>CharacterDetails.xaml</DependentUpon>

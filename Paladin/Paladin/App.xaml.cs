@@ -1,4 +1,5 @@
 ﻿
+using Paladin.Database;
 using Xamarin.Forms;
 
 namespace Paladin
@@ -8,8 +9,9 @@ namespace Paladin
     public App()
     {
       InitializeComponent();
-
-      MainPage = new NavigationPage(new Paladin.Views.MainPage());
+      var database = new PaladinDb();
+      database.CreateTables();
+      MainPage = new NavigationPage(new Paladin.Views.MainPage(database));
     }
 
     protected override void OnStart()
