@@ -2,6 +2,7 @@ bin/
 Debug/
 .vs/
 packages/
+Release/
 
 # User-specific files
 *.suo
