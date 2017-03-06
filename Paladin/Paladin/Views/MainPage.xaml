@@ -8,7 +8,8 @@
   <ListView x:Name="lvCharacters" ItemTapped="LvCharacters_ItemTapped">
     <ListView.ItemTemplate>
       <DataTemplate>
-        <TextCell Text="{Binding Name}"></TextCell>
+        <!--<TextCell Text="{Binding Name}" />-->
+        <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}"/>
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>

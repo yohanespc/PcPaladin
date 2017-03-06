@@ -27,8 +27,8 @@ namespace Paladin.Views
     internal List<CharactersListDto> BuildListViewCharacters()
     {
       List<CharactersListDto> chars = new List<CharactersListDto>();
-      chars.Add(new CharactersListDto { Name = "Viktor", Icon = "" });
-      chars.Add(new CharactersListDto { Name = "Ying", Icon = "" });
+      chars.Add(new CharactersListDto { Name = "Viktor", Icon = "viktor.png" });
+      chars.Add(new CharactersListDto { Name = "Ying", Icon = "ying.png" });
       return chars;
     }
 
